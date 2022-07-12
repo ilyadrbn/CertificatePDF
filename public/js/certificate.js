@@ -22,7 +22,7 @@ window.addEventListener("resize", setBtnPortraitPosition, true);
 
 function setBtnLandscapePosition() {
     if (window.screen.height < window.screen.width) {
-        if (window.screen.height < 801) {
+        if (window.screen.height < 768) {
             if ((window.screen.height < certificateTemplate.offsetHeight + 48)) {
                 landscapePadding = (window.screen.width - certificateTemplate.offsetWidth / (certificateTemplate.offsetHeight / (certificateTemplate.offsetHeight - 48 - (certificateTemplate.offsetHeight - window.screen.height)))) / 2;
                 certificateWrapper.style.paddingLeft = `calc(${landscapePadding}px)`

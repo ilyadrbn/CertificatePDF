@@ -323,7 +323,24 @@ body {
     }
   }
 }
-@media (max-height: 800px) and (orientation: landscape) {
+
+@media (max-height: 851px) and (min-height: 768px) and (orientation: landscape) {
+  .certificate {
+    &__wrapper {
+      vertical-align: top;
+      padding-top: 130px;
+    }
+    &__download {
+      top: 60px !important;
+    }
+    &__window {
+      // top: 130px;
+      // display: block;
+    }
+  }
+}
+
+@media (max-height: 767px) and (orientation: landscape) {
   .certificate {
     &__download {
       left: inherit;

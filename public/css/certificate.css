@@ -299,7 +299,16 @@ body {
     top: 20.17%;
   }
 }
-@media (max-height: 800px) and (orientation: landscape) {
+@media (max-height: 851px) and (min-height: 768px) and (orientation: landscape) {
+  .certificate__wrapper {
+    vertical-align: top;
+    padding-top: 130px;
+  }
+  .certificate__download {
+    top: 60px !important;
+  }
+}
+@media (max-height: 767px) and (orientation: landscape) {
   .certificate__download {
     left: inherit;
     margin-right: inherit;
