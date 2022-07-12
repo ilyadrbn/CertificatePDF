@@ -84,7 +84,10 @@ showCertificateBtn.addEventListener("click", function () {
         modalPicButtonLine2.setAttribute("y1", "100");
         modalPicButtonLine2.setAttribute("y2", "0");
         modalPicButtonA.style.left = `calc(${certificateWrapper.offsetWidth - certificateTemplate.offsetWidth}px / 2 + ${certificateTemplate.offsetWidth}px)`;
-        modalPicButtonA.style.top = `calc((100vh - ${certificateTemplate.offsetHeight}px) / 2 - 30px)`;
+        // if (window.screen.height <= 851 && window.screen.height >= 768){
+        //     modalPicButtonA.style.top = `calc((100vh - ${certificateTemplate.offsetHeight}px) / 2 - 30px)`;
+        // }
+            modalPicButtonA.style.top = `calc((100vh - ${certificateTemplate.offsetHeight}px) / 2 - 38px)`;
     }
     SvgExit();
     window.addEventListener("resize", SvgExit, true);

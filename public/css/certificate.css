@@ -307,6 +307,10 @@ body {
   .certificate__download {
     top: 60px !important;
   }
+  .certificate .a-svg-line-x {
+    top: 90.5px !important;
+    right: 0 !important;
+  }
 }
 @media (max-height: 767px) and (orientation: landscape) {
   .certificate__download {
