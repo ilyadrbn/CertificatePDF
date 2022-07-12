@@ -50,13 +50,6 @@ function setBtnLandscapePosition() {
 }
 setBtnLandscapePosition()
 window.addEventListener("resize", setBtnLandscapePosition, true);
-
-certificateMainScreen.addEventListener("wheel", function (e) {
-    e.preventDefault();
-});
-certificateMainScreen.addEventListener("touchmove", function (e) {
-    e.preventDefault();
-});
 showCertificateBtn.addEventListener("click", function () {
     certificateMainScreen.classList.add("certificate__visible");
     let modalPicButtonA = document.createElement('a');
@@ -84,10 +77,7 @@ showCertificateBtn.addEventListener("click", function () {
         modalPicButtonLine2.setAttribute("y1", "100");
         modalPicButtonLine2.setAttribute("y2", "0");
         modalPicButtonA.style.left = `calc(${certificateWrapper.offsetWidth - certificateTemplate.offsetWidth}px / 2 + ${certificateTemplate.offsetWidth}px)`;
-        // if (window.screen.height <= 851 && window.screen.height >= 768){
-        //     modalPicButtonA.style.top = `calc((100vh - ${certificateTemplate.offsetHeight}px) / 2 - 30px)`;
-        // }
-            modalPicButtonA.style.top = `calc((100vh - ${certificateTemplate.offsetHeight}px) / 2 - 38px)`;
+        modalPicButtonA.style.top = `calc((100vh - ${certificateTemplate.offsetHeight}px) / 2 - 38px)`;
     }
     SvgExit();
     window.addEventListener("resize", SvgExit, true);

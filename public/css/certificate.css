@@ -186,48 +186,46 @@ body {
     padding-left: 40px;
     padding-right: 40px;
   }
-  .certificate__window {
+  .certificate__wrapper .certificate__window {
     width: auto;
     height: auto;
     aspect-ratio: 842/595;
   }
-  .certificate__textblock {
+  .certificate__wrapper .certificate__textblock {
     top: 20.17%;
   }
-  .certificate__title {
+  .certificate__wrapper .certificate__title {
     font-size: 5.75vw;
     margin-bottom: 0.476%;
   }
-  .certificate__str1 {
+  .certificate__wrapper .certificate__str1 {
     font-size: 1.53333333vw;
     margin-bottom: 4.752%;
     line-height: initial;
   }
-  .certificate__username {
+  .certificate__wrapper .certificate__username {
     font-size: 2.683333333vw;
     margin-bottom: 2.376%;
   }
-  .certificate__type-of-course {
+  .certificate__wrapper .certificate__type-of-course {
     font-size: 1.725vw;
     margin-bottom: 0.951%;
     line-height: initial;
   }
-  .certificate__name-of-course {
+  .certificate__wrapper .certificate__name-of-course {
     font-size: 2.3vw;
     margin-bottom: 7.126%;
   }
-  .certificate__flex-platform-and-date {
+  .certificate__wrapper .certificate__flex-platform-and-date {
     font-size: 1.53333333vw;
     line-height: initial;
   }
-  .certificate__flex-platform-and-date .certificate__name-of-platform {
+  .certificate__wrapper .certificate__flex-platform-and-date .certificate__name-of-platform {
     margin-right: 16.628%;
   }
   .certificate .small-screen {
-    position: absolute;
     width: 842px;
     height: 595px;
-    background-size: contain;
   }
   .certificate .small-screen .certificate__title {
     font-size: 60px;
@@ -341,36 +339,36 @@ body {
     height: auto;
     aspect-ratio: 842/595;
   }
-  .certificate__textblock {
+  .certificate__wrapper .certificate__textblock {
     top: 20.168%;
   }
-  .certificate__title {
+  .certificate__wrapper .certificate__title {
     font-size: 9.298vh;
     margin-bottom: 0.476%;
   }
-  .certificate__str1 {
+  .certificate__wrapper .certificate__str1 {
     font-size: 2.4794666667vh;
     margin-bottom: 4.752%;
     line-height: initial;
   }
-  .certificate__username {
+  .certificate__wrapper .certificate__username {
     font-size: 4.3390666667vh;
     margin-bottom: 2.376%;
   }
-  .certificate__type-of-course {
+  .certificate__wrapper .certificate__type-of-course {
     font-size: 2.7894vh;
     margin-bottom: 0.951%;
     line-height: initial;
   }
-  .certificate__name-of-course {
+  .certificate__wrapper .certificate__name-of-course {
     font-size: 3.7192vh;
     margin-bottom: 7.126%;
   }
-  .certificate__flex-platform-and-date {
+  .certificate__wrapper .certificate__flex-platform-and-date {
     font-size: 2.4794666667vh;
     line-height: initial;
   }
-  .certificate__flex-platform-and-date .certificate__name-of-platform {
+  .certificate__wrapper .certificate__flex-platform-and-date .certificate__name-of-platform {
     margin-right: 16.628%;
   }
 }
